@@ -1,0 +1,76 @@
+body {
+background-image: url('../images/background.jpg');
+background-color: rgb(255, 255, 255);
+background-position:center;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0;
+padding: 0;
+}  
+
+td, th {
+  border: 2px solid;
+}
+  
+#planets img {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+  
+h1 {
+  font-family: 'Science Gothic', sans-serif;
+  font-size: 100px;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+#h1gradient {
+  height: 170px;
+  background-color: rgba(255, 255, 255, 0.0);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.0), rgba(5, 30, 158, 0.8), rgba(255, 255, 255, 0.0));
+  padding: 50px;
+  margin: 0px;
+}
+
+#intro {
+ font-size: 20px;
+ margin: 0px;
+ text-align: center;
+ color: rgb(0, 0, 0);
+ font-family: 'Roberto', sans-serif;
+}
+
+p {
+  font-family: 'Roberto', sans-serif;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+}
+
+#planets {
+  max-width: 1500px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-family: 'Roberto', sans-serif;
+}
+
+#planets th {
+  font-family: 'Science Gothic', sans-serif;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+
+#planets td:first-child {
+  font-family: 'Science Gothic', sans-serif;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+}
+
+footer{
+  font-family: 'Roberto', sans-serif;
+  color: rgb(0, 0, 0);
+}
+
